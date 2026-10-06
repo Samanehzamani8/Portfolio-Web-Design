@@ -1,0 +1,338 @@
+
+body{
+  margin: 0;
+  padding: 0;
+  font-family: "Epilogue", sans-serif;
+}
+
+main{
+  margin: auto;
+  line-height: 27px;
+}
+
+.top{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 25px 50px;
+  
+}
+
+.logo{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.logo2 span{
+  margin-left: 50px;
+  font-size: 17px
+}
+
+.hero{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 100px;
+}
+
+.text1 h1{
+  font-size: 80px;
+  width: 600px;
+  margin-top: 40px;
+  margin-bottom: 40px;
+  line-height: 90px;
+}
+
+.sub{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.sub1{
+  font-size: 17px;
+}
+
+.shapes img{
+  width: 495px;
+  height: 424px;
+}
+
+.logos{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  border-top: solid rgb(219, 219, 219);
+  border-bottom: solid rgb(219, 219, 219);
+  margin: 101px;
+  padding-top: 60px;
+  padding-bottom: 60px;
+}
+
+.logos1{
+  display: flex;
+  flex-direction: row;
+  gap: 135px;
+  align-items: center;
+}
+
+.logos img{
+  width: auto;
+}
+
+.menu{
+  display: none;
+}
+
+.hecard{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 125px;
+  margin-top: 180px;
+  margin-bottom: 180px;
+
+}
+
+.card{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 15px;
+  text-align: center;
+}
+
+.card p{
+  font-size: 27px;
+  font-weight: bold;
+}
+
+.image{
+  width: 315px;
+}
+
+.work{
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 60px;
+}
+
+.work h2{
+  font-size: 32px;
+}
+
+.work1{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 67.5px;
+}
+
+.text2 p{
+  font-size: 32px;
+  font-weight: bold;
+  text-align: center;
+  margin-top: 130px;
+}
+
+.work2{
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  gap: 89px;
+  margin: 100px;
+}
+
+.work2 span{
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.work3{
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  align-items: center;
+  border: 1px solid #FFD285;
+  background-color: #FFFCF5;
+  width: 315px;
+  height: 344px;
+  padding: 30px;
+  padding-right: 50px;
+}
+
+.work4{
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  margin: 100px;
+  margin-top: 150px;
+  border-top: solid rgb(219, 219, 219);
+  padding-top: 70px;
+}
+
+.work5{
+  display: flex;
+  flex-direction: column;
+  gap: 60px;
+}
+
+.work5 h1{
+  font-size: 32px;
+  padding-bottom: 30px;
+}
+
+.border{
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+input{
+  width: 530px;
+  height: 69px;
+  background-color: #F3F3F3;
+  border: none;
+  padding: 10px;
+}
+
+.in2{
+  height: 231px;
+}
+
+button{
+  width: 235px;
+  height: 80px;
+  border: none;
+  background-color: black;
+  color: white;
+  font-weight: bold;
+  font-size: 20px;
+}
+
+@media ((min-width:375px) and (max-width: 385px)) {
+
+  main{
+    align-items: center;
+  }
+
+  .top{
+    flex-direction: row;
+    justify-content: space-between;
+  }
+
+  .logo3{
+    display: none;
+  }
+
+  .menu{
+    display: flex;
+  }
+
+  .hero{
+    flex-direction: column;
+    text-align: center;
+    margin: 30px;
+  }
+
+  .text1 h1{
+    font-size: 48px;
+    margin-top: 24px;
+    margin-bottom: 20px;
+    line-height: 100%;
+    width: fit-content;
+  }
+
+  .shapes img{
+    width: 315px;
+    height: 269.82px;
+    margin-top: 60px;
+  }
+
+  .logos{
+    flex-direction: column;
+    margin: 66.44px;
+  }
+
+  .logos1{
+    display: flex;
+    gap: 65px;
+    margin-bottom: 60px;
+  }
+
+  .hecard{
+    flex-direction: column;
+    margin-top: 180px;
+    margin-bottom: 180px;
+  }
+
+  .card{
+    gap: 19px;
+  }
+
+  .card p{
+    margin-top: 56px;
+  }
+
+  .card span{
+    font-size: 17px;
+  }
+
+  .work{
+    padding: 30px;
+  }
+
+  .work p{
+    font-size: 20px;
+  }
+
+  .work span{
+    font-size: 17px;
+  }
+
+  .work1{
+    flex-direction: column;
+  }
+
+  .text2 p{
+    margin-top: 190px;
+  }
+
+  .work2{
+    flex-direction: column;
+    align-items: center;
+    gap: 60px;
+    margin: 30px;
+    margin-bottom: 90px;
+  }
+
+  .work3{
+    justify-content: center;
+    gap: 80px;
+    line-height: 30px;
+    max-width: fit-content;
+  }
+
+  .work4{
+    flex-direction: column;
+    margin: 30px;
+  }
+
+  .work5 h1{
+    font-size: 35px;
+    line-height: 52px;
+  }
+
+  .icon{
+    display: flex;
+    gap: 13px;
+    margin-bottom: 80px;
+  }
+
+  input{
+    width: auto;
+
+  }
+
+}
